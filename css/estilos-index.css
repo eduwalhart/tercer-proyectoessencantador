@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(51, 51, 51, 0.389);
+}
+header {
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+.container-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.logo-titulo {
+    display: flex;
+}
+
+.logo-titulo img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-titulo h4 {
+    color: rgb(249, 250, 250);
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.spam{
+    color: rgb(0, 13, 255);
+    background-color: rgba(220, 242, 245, 0.497);
+    border: solid 2px black;
+}
+.nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+
+}
+
+.nav a {
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0.2pc rgb(178, 180, 173);
+    color: rgb(5, 4, 4);
+    padding: 10px;
+}
+.nav a:hover{
+    color: brown;
+   
+}
+
+
+
+.container-portada {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../css/img/essen..webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: movimiento 20s infinite linear alternate;
+
+}
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+.capa-gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, rgb(161, 163, 164), rgb(19, 18, 20));
+    opacity: 0.3;
+}
+
+.container-details {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+
+}
+
+.details {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: bisque;
+}
+
+.details h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.details p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.details button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: aliceblue;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+}
+
+.details button:hover {
+    background: white;
+    color: black;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+article {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin: auto;
+}
+
+article h1 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+article hr {
+    max-width: 500px;
+    height: 4px;
+    border: none;
+    background: -webkit-linear-gradient(left, black, blue);
+    margin-top: 10px;
+}
+
+article p {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+
+}
+
+footer .redes {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    text-decoration-color: black;
+
+
+}
+
+footer .subir {
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    margin-right: 50px;
+    text-shadow: 4px 2px 3px rgb(4, 209, 255);
+}
+
+
+.fa-youtube {
+    color: crimson;
+}
+
+.fa-twitter {
+    color: blue;
+}
+
+.fa-whatsapp {
+    color: darkgreen;
+}
+
+.fa-instagram {
+
+    background: -webkit-linear-gradient(top, rgb(123, 2, 251), rgb(241, 2, 254), rgb(254, 2, 2), rgb(220, 253, 4));
+    color: aliceblue;
+    border-radius: 10%;
+}
+@media screen and (max-width:1087px) {
+
+    .nav a{
+        font-size: 20px;
+        color: brown;
+    }
+}
+@media screen and (max-width:876px) {
+
+    .nav a{
+        font-size: 10px;
+        color: chartreuse;
+    }
+}
+@media screen and (max-width:671px) {
+.logo-titulo img{
+   display: none;
+}
+.logo-titulo h4{
+    display: none;
+
+}
+.details {
+    display: none;
+}
+
+.details h1 {
+    display: none;
+}
+
+.details p {
+    display: none;
+}
+
+.details button {
+    display: none;
+}
+
+}
