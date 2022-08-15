@@ -29,8 +29,8 @@ header {
 
 .nav {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 40px;
+ 
 
 
 }
@@ -48,7 +48,7 @@ header {
 
 }
 
-body {
+.body1 {
   height: 100%;
   font-family: 'Noto Sans', sans-serif;
   background-color: #2daccf;
@@ -158,6 +158,50 @@ p {
 
 ::-webkit-input-placeholder {
   color: #a8a8a8;
+}
+
+@media screen and (max-width:1087px) {
+
+  .nav a {
+      font-size: 20px;
+      color: rgb(74, 21, 180);
+  }
+}
+
+@media screen and (max-width:876px) {
+
+  .nav a {
+      font-size: 10px;
+      color: rgb(4, 171, 255);
+  }
+}
+
+@media screen and (max-width:671px) {
+  .logo-titulo img {
+      display: none;
+  }
+
+  .logo-titulo h4 {
+      display: none;
+
+  }
+
+  .details {
+      display: none;
+  }
+
+  .details h1 {
+      display: none;
+  }
+
+  .details p {
+      display: none;
+  }
+
+  .details button {
+      display: none;
+  }
+
 }
 
 

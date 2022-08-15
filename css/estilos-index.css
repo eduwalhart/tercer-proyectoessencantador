@@ -4,12 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: rgba(51, 51, 51, 0.389);
 }
+
 header {
     width: 100%;
     height: 60px;
@@ -42,15 +45,17 @@ header {
     margin-top: 20px;
     font-size: 20px;
 }
-.spam{
+
+.spam {
     color: rgb(0, 13, 255);
     background-color: rgba(220, 242, 245, 0.497);
     border: solid 2px black;
 }
+
 .nav {
     position: absolute;
     right: 20px;
-    
+
 
 
 }
@@ -62,9 +67,10 @@ header {
     color: rgb(5, 4, 4);
     padding: 10px;
 }
-.nav a:hover{
+
+.nav a:hover {
     color: brown;
-   
+
 }
 
 
@@ -217,42 +223,57 @@ footer .subir {
     color: aliceblue;
     border-radius: 10%;
 }
+
 @media screen and (max-width:1087px) {
 
-    .nav a{
+    .nav a {
         font-size: 20px;
         color: brown;
     }
 }
+
 @media screen and (max-width:876px) {
 
-    .nav a{
+    .nav a {
         font-size: 10px;
         color: chartreuse;
     }
 }
+
 @media screen and (max-width:671px) {
-.logo-titulo img{
-   display: none;
-}
-.logo-titulo h4{
-    display: none;
+    .logo-titulo img {
+        display: none;
+    }
+
+    .logo-titulo h4 {
+        display: none;
+
+    }
+
+    .details {
+        display: none;
+    }
+
+    .details h1 {
+        display: none;
+    }
+
+    .details p {
+        display: none;
+    }
+
+    .details button {
+        display: none;
+    }
 
 }
-.details {
-    display: none;
-}
 
-.details h1 {
-    display: none;
-}
-
-.details p {
-    display: none;
-}
-
-.details button {
-    display: none;
-}
-
+.main1 {
+    display: grid;
+    margin-top: 400px;
+    gap: 30px;
+    grid-template-columns: 500px 500px;
+    grid-area:
+                "item1 item2"
+                "item3 item4";
 }

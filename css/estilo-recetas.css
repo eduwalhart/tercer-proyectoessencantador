@@ -1,11 +1,88 @@
 .header {
-  color: rgb(71, 71, 247);
-  padding: 500px;
-  margin: 100%;
+  background-color: blue;
 }
 
-.nav a {
-  color: aqua;
-  font-size: 20px;
-  font-style: oblique;
+.body {
+  background-color: aqua;
+}
+.body .img3 {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.span {
+  font-size: 30px;
+  color: blue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 500px 500px;
+  gap: 40px;
+  row-gap: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+  grid-area: "item1 item2" "item3 item4" "item5 item6";
+}
+
+.item1 {
+  background-image: url(./img/estofado-de-pollo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+.item2 {
+  background-image: url(./img/R75Ratatouille.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+.item3 {
+  background-image: url(./img/receta-lentejas-al-disco-essen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+.item4 {
+  background-image: url(./img/torta-cafee-y-canela.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+.item5 {
+  background-image: url(./img/bizcochuelo-confrutos-rojos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+.item6 {
+  background-image: url(./img/Cacerola24_Aqua_Guisodelentejasv2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 8px 9px #333;
+}
+
+@media screen and (max-width: 876px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 500px;
+    gap: 40px;
+    row-gap: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-area: "item1" "item2" "item3" "item4" "item5" "item6";
+  }
 }/*# sourceMappingURL=estilo-recetas.css.map */
