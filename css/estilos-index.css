@@ -13,7 +13,7 @@ body{
 header {
     width: 100%;
     height: 60px;
-    background: black;
+    background: rgba(0, 0, 0, 0.46);
 }
 
 .container-header {
@@ -32,6 +32,7 @@ header {
     height: 40px;
     margin-top: 10px;
     margin-left: 10px;
+    border-radius: 50%;
 }
 
 .logo-titulo h4 {
@@ -49,7 +50,7 @@ header {
 .nav {
     position: absolute;
     right: 20px;
-    top: 20px;
+    
 
 
 }

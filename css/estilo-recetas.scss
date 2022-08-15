@@ -1,6 +1,16 @@
-@import url(/variables/variables.scss);
+@import'./variables/variables.scss';
 
-.body{
-    background: $color2;
-    
+header {
+   background-color: $color3;
+  body{
+   background-color: $color2;
+  } 
+
+
+
+nav a{
+   color: $color1;
+   font-size: 50px;
+   font-style: oblique;
+}
 }

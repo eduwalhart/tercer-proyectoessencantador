@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"estilo-recetas.css"}
+{"version":3,"sources":["estilo-recetas.scss","variables/variables.scss","estilo-recetas.css"],"names":[],"mappings":"AAEA;EACG,uBCDK;EDEL,cAAA;EACA,YAAA;AEDH;;AFKA;EACG,WCVK;EDWL,eAAA;EACA,mBAAA;AEFH","file":"estilo-recetas.css"}

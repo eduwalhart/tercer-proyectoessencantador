@@ -1,1 +1,11 @@
-/*# sourceMappingURL=estilo-recetas.css.map */
+.header {
+  color: rgb(71, 71, 247);
+  padding: 500px;
+  margin: 100%;
+}
+
+.nav a {
+  color: aqua;
+  font-size: 20px;
+  font-style: oblique;
+}/*# sourceMappingURL=estilo-recetas.css.map */

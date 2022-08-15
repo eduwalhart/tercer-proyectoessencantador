@@ -1,10 +1,11 @@
-/* Importación de fuentes de google fonts */ 
+/* Importación de fuentes de google fonts */
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 header {
   width: 100%;
   height: 60px;
-  background: black;
+  background: rgba(0, 0, 0, 0.338);
+
 }
 
 .container-header {
@@ -23,7 +24,9 @@ header {
   height: 40px;
   margin-top: 10px;
   margin-left: 10px;
+  border-radius: 50%;
 }
+
 .nav {
   position: absolute;
   right: 20px;
@@ -36,138 +39,129 @@ header {
   font-size: 30px;
   text-decoration: none;
   text-shadow: 2px 2px 0.2pc rgb(178, 180, 173);
-  color: rgb(5, 4, 4);
+  color: rgb(1, 8, 73);
   padding: 10px;
 }
-.nav a:hover{
-  color: brown;
- 
+
+.nav a:hover {
+  color: rgb(12, 87, 110);
+
 }
 
-body{
-  height: 100%; 
+body {
+  height: 100%;
   font-family: 'Noto Sans', sans-serif;
-  background-color: #4495ab; 
+  background-color: #2daccf;
 }
 
 
-.contact_form{  
-  width: 460px; 
+.contact_form {
+  width: 460px;
   height: auto;
   margin: 80px auto;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+  padding-bottom: 20px;
+  background-color: #ebdddd;
+  padding-left: 30px;
+
 }
 
-
-input{
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
   padding-left: 10px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 
-textarea{
-  background-color: #fbfbfb; 
-  width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a5298d;
+  margin-top: 10px;
   padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
+  margin-bottom: 20px;
+  padding-top: 15px;
+  
 }
 
 
-label{
-  display: block; 
-  float: center;  
+label {
+  display: block;
+  float: center;
 }
 
 
-button{
-  height: 45px; 
+button {
+  height: 45px;
   padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 20px; 
-  margin-top: 10px;   
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
   cursor: pointer;
 }
 
 
-button p{
-  color: #fff; 
+button p {
+  color: #fff;
 }
 
 
-span{
-  color: #ab4493; 
-}
-
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
-}
-
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
-  padding-bottom: 20px; 
+span {
   color: #ab4493;
 }
 
 
-h3{
-  font-size: 16px; 
-  padding-bottom: 30px;
-  color: #0e0e0e;   
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
 }
 
 
-p{
-  font-size: 14px; 
-  color: #0e0e0e; 
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #ab4493;
+}
+
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
 }
 
 
 ::-webkit-input-placeholder {
- color: #a8a8a8;
+  color: #a8a8a8;
 }
 
 
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
 
 
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
 
 
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
